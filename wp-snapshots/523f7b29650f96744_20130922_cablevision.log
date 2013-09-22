@@ -1,0 +1,72 @@
+******************************************************************************** 
+PACKAGE-LOG: 11:20:09 
+NOTICE: Do not post to public sites or forums 
+******************************************************************************** 
+duplicator: 0.4.6 
+wordpress: 3.6.1 
+php: 5.4.10 
+php sapi: apache2handler 
+server: Apache 
+browser: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36 
+package name: 20130922_cablevision 
+php_max_time: set from=180 to=5000 
+php_max_memory: set from=128M to=5000M 
+mysql wait_timeout:5000 
+recorded table id: 1 
+******************************************************************************** 
+BUILD SQL SCRIPT: 
+******************************************************************************** 
+wp_commentmeta (0) 
+wp_comments (1) 
+wp_duplicator (1) 
+wp_links (0) 
+wp_options (162) 
+wp_postmeta (101) 
+wp_posts (27) 
+wp_term_relationships (8) 
+wp_term_taxonomy (5) 
+wp_terms (5) 
+wp_usermeta (21) 
+wp_users (1) 
+SQL CREATED: /Users/lkbogdonoff/LKBG/CableVision/wordpress/wp-snapshots/523f7b29650f96744_20130922_cablevision_database.sql 
+SQL FILE SIZE: 458.15KB 
+SQL RUNTIME: 0.0343 sec. 
+******************************************************************************** 
+BUILD ZIP PACKAGE: 
+******************************************************************************** 
+PACKAGE DIR:  /Users/lkbogdonoff/LKBG/CableVision/wordpress 
+PACKAGE FILE: /Users/lkbogdonoff/LKBG/CableVision/wordpress/wp-snapshots/523f7b29650f96744_20130922_cablevision_package.zip 
+FILTER EXTENSIONS:  '' 
+FILTER DIRECTORIES: '' 
+---------------------------------------- 
+STARTING PACKAGE BUILD 
+ADDED=>SQL: /Users/lkbogdonoff/LKBG/CableVision/wordpress/wp-snapshots/523f7b29650f96744_20130922_cablevision_database.sql 
+BUILDING FILE LIST 
+FILE LIST COMPLETE: 0.1090 sec. 
+FILE LIST STATS: Dirs 149 | Files 1294 | Links 0 |  
+
+PACKAGE INFO: ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1444
+    [filename] => /Users/lkbogdonoff/LKBG/CableVision/wordpress/wp-snapshots/523f7b29650f96744_20130922_cablevision_package.zip
+    [comment] => 
+)
+ 
+CREATING PACKAGE 
+CLOSING PACKAGE RESULT: '1' 
+PACKAGE FILE SIZE: 6.8MB 
+PACKAGE RUNTIME: 1.8187 sec. 
+******************************************************************************** 
+BUILD INSTALLER FILE: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Complete [/Users/lkbogdonoff/LKBG/CableVision/wordpress/wp-snapshots/523f7b29650f96744_20130922_cablevision_installer.php] 
+******************************************************************************** 
+FILE SIZE: Zip:6.8MB | SQL:458.15KB | Installer:527.05KB 
+TOTAL PROCESS RUNTIME: 1.9437 sec. 
+DONE PROCESSING => 20130922_cablevision 11:20:11 
+******************************************************************************** 
