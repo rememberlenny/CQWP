@@ -16386,3 +16386,8 @@ div.fyre-post-button {
 .icon-arrow-east:before {
   content: "\e020";
 }
+
+/* line 1, sass/element/recentpopular.scss */
+#test {
+  color: black;
+}
