@@ -41,15 +41,17 @@
 
 #cbv-carousel-content li div {
 	background-color: #000;
-	/* position: absolute; */
+	position: absolute;
 	width: 100%;
 	bottom: 0;
 	left: 0;
 }
 
 #cbv-carousel-content li img {
+	/*
 	height: 411px !important;
 	width: 611px !important;
+	*/
 }
 
 .cbv-carousel-slide-caption p {

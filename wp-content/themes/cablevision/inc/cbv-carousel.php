@@ -27,9 +27,9 @@
       <?php else : ?>
       <li id="cbv-slide-<?php echo $sticky_postID ?>" class="hidden-slide">
       <?php endif; ?>
+        <?php the_post_thumbnail('large'); ?>
         <div class="cbv-carousel-slide-caption">
         	<?php if ( has_post_thumbnail() ) : ?>
-        	<?php the_post_thumbnail('full'); ?>
             <?php endif; ?>
         	<p><?php  the_title(); ?></p>
         </div>
@@ -48,7 +48,7 @@
 
       <li class="cbv-carousel-nav-item">
         <a href="#cbv-slide-<?php echo $sticky_postID ?>">
-        	<?php the_post_thumbnail('thumbnail'); ?>
+        	<?php the_post_thumbnail('thumb-50'); ?>
         </a>
       </li>
 
@@ -59,59 +59,8 @@
 </div>
 
 <?php endif; ?>
-
-<!--
-<div class="cbv-carousel">
-
-    <ul id="cbv-carousel-content">
-      <li id="cbv-slide-01">
-        <img src="assets/img/slide-filler-01.jpg" width="611px" height="411px" />
-        <div class="cbv-carousel-slide-caption">
-          <p>Title 1: Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set</p>
-        </div>
-      </li>
-      <li class="hidden-slide" id="cbv-slide-02">
-        <img src="assets/img/slide-filler-02.jpg" width="611px" height="411px" />
-        <div class="cbv-carousel-slide-caption">
-          <p>Title 2: Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set</p>
-        </div>
-      </li>
-      <li class="hidden-slide" id="cbv-slide-03">
-        <img src="assets/img/slide-filler-03.jpg" width="611px" height="411px" />
-        <div class="cbv-carousel-slide-caption">
-          <p>Title 3: Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set</p>
-        </div>
-      </li>
-      <li class="hidden-slide" id="cbv-slide-04">
-        <img src="assets/img/slide-filler-04.jpg" width="611px" height="411px" />
-        <div class="cbv-carousel-slide-caption">
-          <p>Title 4: Lorsem Ipsum Dolar Set Lorsem Ipsum Dolar Set</p>
-        </div>
-      </li>
-    </ul>
-  
-
-    <ul id="cbv-carousel-nav">
-      <li class="cbv-carousel-nav-item">
-        <a href="#cbv-slide-01"><img src="assets/img/slide-thumb-01.jpg" /></a>
-      </li>
-      <li class="cbv-carousel-nav-item">
-        <a href="#cbv-slide-02"><img src="assets/img/slide-thumb-02.jpg" /></a>
-      </li>
-      <li class="cbv-carousel-nav-item">
-        <a href="#cbv-slide-03"><img src="assets/img/slide-thumb-03.jpg" /></a>
-      </li>
-      <li class="cbv-carousel-nav-item">
-        <a href="#cbv-slide-04"><img src="assets/img/slide-thumb-04.jpg" /></a>
-      </li>
-    </ul>
-
-  </div>
-
--->
-
  
-  <script>
+<script>
 
     jQuery("#cbv-carousel-nav a[href]").click(function(event){
       // Prevent default <a> click event
@@ -121,4 +70,4 @@
       jQuery("#cbv-carousel-content " + jQuery(this).attr("href")).fadeIn().siblings().hide();
     });
 
-  </script>
+</script>

@@ -41,6 +41,8 @@ function cablevision_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
+	add_image_size( 'thumb-50', 50, 50, true );
+
 	/**
 	 * This theme uses wp_nav_menu() in one location.
 	 */
