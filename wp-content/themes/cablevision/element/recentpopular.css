@@ -1,4 +1,22 @@
 /* line 1, ../sass/element/recentpopular.scss */
-#test {
-  color: black;
+body .tabbable .nav li {
+  margin-bottom: 6px !important;
 }
+
+/* line 5, ../sass/element/recentpopular.scss */
+body .tabbable .nav li a {
+  background-color: #0090b4 !important;
+  border: none !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+}
+
+/* line 12, ../sass/element/recentpopular.scss */
+body .tabbable .nav-tabs > .active > a, body .tabbable .nav-tabs > .active > a:hover {
+  background-color: #27bfdc !important;
+}
+
+/*
+body .tabbable .nav-tabs > .last > a, body .tabbable .nav-tabs > .last > a:hover {
+	background-color: #0090b4 !important;
+}*/

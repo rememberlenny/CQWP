@@ -18,7 +18,8 @@ get_header(); ?>
 
 		<?php 
 		if(is_home()):
-			echo '<div style="margin-bottom:1.5em; text-align: center;"><img src="http://fakeimg.pl/611x540/" alt=""></div>';
+			//echo '<div style="margin-bottom:1.5em; text-align: center;"><img src="http://fakeimg.pl/611x540/" alt=""></div>';
+		    get_template_part( 'inc/cbv-carousel' );
 		endif;
 		?>
 		<div class="split-content-wrap clearfix">

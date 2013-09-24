@@ -1,3 +1,24 @@
-#test{
-	color: black;
+body .tabbable .nav li {
+	margin-bottom: 6px !important;
 }
+
+body .tabbable .nav-tabs {
+   
+}
+
+body .tabbable .nav li a {
+	background-color: #0090b4 !important;
+	border: none !important;
+	color: #ffffff !important;
+	text-transform: uppercase !important;
+}
+
+body .tabbable .nav-tabs > .active > a, body .tabbable .nav-tabs > .active > a:hover {
+	background-color: #27bfdc !important;
+}
+
+/*
+body .tabbable .nav-tabs > .last > a, body .tabbable .nav-tabs > .last > a:hover {
+	background-color: #0090b4 !important;
+}*/
+
